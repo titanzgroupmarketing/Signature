@@ -184,7 +184,9 @@ body {
 /* RESPONSIVE */
 @media (max-width: 768px) {
     .hero{
-        width:500px ;
+        width: 460px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
     }
     .brand {
         font-size: 32px;
@@ -192,20 +194,33 @@ body {
 
     .profile-card {
         padding-top: 40px;
+        height: 300px;
+        border-radius: 20px;
     }
 
     .contact-menu {
         gap: 25px;
     }
     .social{
-        width: 500px;
+        width: 460px;
         padding: 10px;
         border-radius: 20px;
+        margin-top: 30px;
     }
     .description{
-        font-size: 13px;
+        font-size: 10px;
     }
     .profile-img{
         top: -85px;
+    }
+    .contact-menu{
+        top: -20px;
+        gap: 20px;
+        position: relative;
+        font-size: 10px;              
+    }
+    .contact-item i{
+        font-size: 20px;
+        margin-bottom: 1px;
     }
 }
